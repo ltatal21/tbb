@@ -132,6 +132,10 @@ p {
     
 }
 
+.daily-tab {
+	margin-bottom: 15px
+}
+
 .tab-pane {
     background: white;
 }
@@ -232,6 +236,11 @@ footer {
 
 .fot-li li {
 	display: inline-block;
+}
+
+.fot-li li a {
+    color: #f7f7f7;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
