@@ -14,6 +14,33 @@ p {
 }
 
 
+img.logo {
+	margin-left: 10px
+}
+
+#top {
+    position: fixed;
+    right: 23px;
+    bottom: 7px;
+    z-index: 97;
+    font-size: 25px;
+    width: 37px;
+    border-radius: 54px;
+    text-align: center;
+    background: hsla(0, 0%, 100%, 0.8);
+}
+
+#top a {
+	color: #c39f7b
+}
+
+/*modla*/
+
+.modal-backdrop {
+    z-index: 1020;
+}
+
+
 /*nav*/
 
 .serch-bar input {
@@ -216,6 +243,11 @@ span.more {
     display: block;
 }
 
+.ser-block li a:hover {
+    color: #634a4a;
+    font-weight: bold;
+}
+
 .ser-title{
 	color: #e6621c;
     font-weight: bold;
@@ -249,7 +281,7 @@ footer {
 	}
 	.ser-block {
     padding: 15px 10px 10px;
-    min-height: 189px;
+    min-height: 180px;
     margin-bottom: 15px;
     }
     .ser-title {
@@ -263,7 +295,21 @@ footer {
 	}
 	.item-btn a {
     border-bottom: 3px solid;
+    }
 }
 
- 
+@media (max-width: 991px) {
+    #mainNav .navbar-toggler, .serch-bar {
+    	display: none;
+    }
+
+    .logo {
+    	position: absolute;
+    left: 69px;
+    top: 12px;
+    width: 25%;
+    }
+    #demo {
+    margin-top: 56px;
+}
 }
