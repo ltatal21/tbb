@@ -138,7 +138,7 @@ p.dia-log {
 	background: #fff
 }
 
-.item-btn:hover {
+.item-btn a:hover {
     color: #a06d4c;
     background: #fff8d8;
 }
@@ -317,7 +317,7 @@ footer {
 	border-radius: 30px;
     border: 1px solid #eee;
     padding: 5px 13px;
-    width: 9s0%
+    width: 90%
  }
 
 @media (min-width: 768px) {
@@ -352,6 +352,9 @@ footer {
    .item-btn img {
 
     margin: 3px 2px 3px 0px;
+   }
+   .p-link {
+    font-size: 14px
 }
 }
 

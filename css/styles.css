@@ -10188,7 +10188,7 @@ body {
     font-family: '微軟正黑體'
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgb(123, 109, 101);
   }
   #mainNav .nav-link:active {
     color: #fff;
