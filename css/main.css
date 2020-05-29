@@ -94,7 +94,7 @@ p.dia-log {
 
 /*login*/
 
-#login,#item {
+#login,#item, #banner {
 	overflow: hidden;
 	font-family: '微軟正黑體'
 }
